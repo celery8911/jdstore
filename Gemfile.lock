@@ -216,7 +216,7 @@ DEPENDENCIES
   aasm
   bootstrap-sass
   byebug
-  carrierwave
+  carrierwave (>= 1.0.0.rc, < 2.0)
   carrierwave-qiniu
   coffee-rails (~> 4.2)
   devise

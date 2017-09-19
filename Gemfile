@@ -34,7 +34,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'simple_form'
 gem 'font-awesome-rails'
-gem 'carrierwave'
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 gem 'mini_magick'
 gem 'letter_opener', group: :development
 gem 'aasm'
