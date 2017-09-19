@@ -38,7 +38,7 @@ gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 gem 'mini_magick'
 gem 'letter_opener', group: :development
 gem 'aasm'
-gem 'carrierwave-qiniu'
+gem 'carrierwave-qiniu', '~> 1.1.5'
 gem 'figaro'
 
 
