@@ -18,6 +18,12 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
+# 
+# en:
+#   hello: "hi～ %{name} "
 
-en:
-  hello: "Hello world"
+"en":
+  hello: "hi～ %{name} "
+  product_list: Product List
+  admin:
+    product_list: Admin Product List

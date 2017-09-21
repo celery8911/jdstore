@@ -23,11 +23,11 @@ before_action :admin_required
    end
 
   def edit
-   @product = Product.find(params[:id])
+    @product = Product.find_by_friendly_id!(params[:id])
   end
 
   def update
-   @product = Product.find(params[:id])
+    @product = Product.find_by_friendly_id!(params[:id])
 
    if @product.update(product_params)
      redirect_to admin_products_path, notice:'Update Success'

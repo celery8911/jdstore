@@ -1,0 +1,18 @@
+"zh-CN":
+  activerecord:
+    attributes:
+      product:
+        title: "商品名称"
+        description: "商品描述"
+        quantity: "库存"
+        price: "价格"
+        image: "图片"
+  hello: "亲, %{name} 你好!"
+  product_list: 商品列表
+  admin:
+    product_list: 商品列表管理
+    # activerecord:
+    #   attributes:
+    #     product:
+    #       title: "商品名称"
+    #       description: "商品描述"

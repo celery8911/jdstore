@@ -40,7 +40,8 @@ gem 'letter_opener', group: :development
 gem 'aasm'
 gem 'carrierwave-qiniu', '~> 1.1.5'
 gem 'figaro'
-
+gem "rails-i18n"
+gem "devise-i18n"
 
 
 
